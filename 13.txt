@@ -1,0 +1,13 @@
+...
+import { Provider } from 'react-redux';
+import store from '../store/create_store';
+...
+render() {
+    ...
+        return (
+          <Provider store = { store }>
+            <TabNavigator />          
+          </Provider>
+        );
+    ...
+}

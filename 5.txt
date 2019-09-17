@@ -1,0 +1,22 @@
+...
+
+import AddToDo from '../components/add_todo';
+import AddToDoButton from '../components/add_todo_button';
+
+class AllToDo extends React.Component {    
+  render() {    
+    return (
+        <Container>
+            
+            ...
+      
+            <Content>  
+              <AddToDo />
+            </Content>             
+            <AddToDoButton />
+        </Container>
+    );
+  }
+}
+
+...
